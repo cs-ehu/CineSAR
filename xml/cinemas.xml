@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cinemas>
+	<cinema nombre="Cines Antiguo-Berri">
+		<localidad>San Sebastián</localidad>
+		<ubicacion>Zarautz Kalea, 2, 20018 Donostia, Gipuzkoa</ubicacion>
+		<tlf>943 21 91 20</tlf>
+		<descripcion>Cine que está situado en Antiguo-Berri, espacioso y equipado con salas con sonido ATMOS para disfrutar de cualquier película en estreno.</descripcion>
+		<lugar>!1m18!1m12!1m3!1d2903.0939211329323!2d-2.0077165848469125!3d43.31229327913452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b0755d1d53d9%3A0xf738308c683227bd!2sCines+Antiguo+Berri!5e0!3m2!1ses!2ses!4v1512571917422</lugar>
+	</cinema>
+	<cinema nombre="Cines Príncipe">
+		<localidad>San Sebastián</localidad>
+		<ubicacion>San Juan Kalea, 10, 20003 Donostia, Gipuzkoa</ubicacion>
+		<tlf>943 42 12 47</tlf>
+		<descripcion>Cine situado cerca del Boulevard de San Sebastián, pequeño pero dispone de buenos servicios y salas medianamente grandes para grandes películas.</descripcion>
+		<lugar>!1m18!1m12!1m3!1d2902.481240957031!2d-1.9862867848463677!3d43.32511787913396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a54c17e34107%3A0xcda58632551d9d05!2sCines+Pr%C3%ADncipe!5e0!3m2!1ses!2ses!4v1512572587544</lugar>
+	</cinema>
+	<cinema nombre="Cines Trueba">
+		<localidad>San Sebastián</localidad>
+		<ubicacion>Secundino Esnaola Kalea, 2, 20001 Donostia, Guipuzkoa</ubicacion>
+		<tlf>943 27 13 91</tlf>
+		<descripcion>Pequeño cine con películas independientes y comerciales internacionales en versión original subtitulada.</descripcion>
+		<lugar>!1m14!1m8!1m3!1d11610.446335621691!2d-1.9747047!3d43.3223898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3a8d4302dca7219!2sTrueba!5e0!3m2!1ses!2ses!4v1512576639621</lugar>
+	</cinema>
+</cinemas>

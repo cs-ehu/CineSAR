@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies ultid="13">
+  <movie nombre="El Padrino" imagencar="padrino.jpg" urlt="https://www.youtube.com/embed/COQvkUmN6H8" id="1">
+    <director>Francis Ford Coppola</director>
+    <actores>
+      <actor>Marlon Brando</actor>
+      <actor>Al Pacino</actor>
+      <actor>James Caan</actor>
+      <actor>Robert Duvall</actor>
+      <actor>Diane Keaton</actor>
+      <actor>John Cazale</actor>
+      <actor>Talia Shire</actor>
+      <actor>Richard S. Castellano</actor>
+      <actor>Sterling Hayden</actor>
+      <actor>Gianni Russo</actor>
+      <actor>Rudy Bond</actor>
+    </actores>
+    <sinopsis>América, años 40. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de una de las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: Connie (Talia Shire), el impulsivo Sonny (James Caan), el pusilánime Fredo (John Cazale) y Michael (Al Pacino), que no quiere saber nada de los negocios de su padre. Cuando Corleone, en contra de los consejos de 'Il consigliere' Tom Hagen (Robert Duvall), se niega a participar en el negocio de las drogas, el jefe de otra banda ordena su asesinato. Empieza entonces una violenta y cruenta guerra entre las familias mafiosas.</sinopsis>
+  </movie>
+  <movie nombre="El Señor de Los anillos: El retorno del rey" imagencar="retornodelrey.jpg" urlt="https://www.youtube.com/embed/h-9RYiqyqjk" id="2">
+    <director>Peter Jackson</director>
+    <actores>
+      <actor>Elijah Wood</actor>
+      <actor>Viggo Mortensen</actor>
+      <actor>Ian McKellen</actor>
+      <actor>Sean Astin</actor>
+      <actor>Andy Serkis</actor>
+      <actor>John Rhys-Davies</actor>
+      <actor>Orlando Bloom</actor>
+      <actor>John Noble</actor>
+      <actor>Miranda Otto</actor>
+      <actor>David Wenham</actor>
+      <actor>Bernard Hill</actor>
+      <actor>Billy Boyd</actor>
+      <actor>Dominic Monaghan</actor>
+      <actor>Liv Tyler</actor>
+      <actor>Karl Urban</actor>
+      <actor>Christopher Lee</actor>
+      <actor>Brad Dourif</actor>
+      <actor>an Holm</actor>
+      <actor>Hugo Weaving</actor>
+      <actor>Cate Blanchett</actor>
+      <actor>Lawrence Makoare</actor>
+      <actor>Marton Csokas</actor>
+      <actor>Sean Bean</actor>
+    </actores>
+    <sinopsis>Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de decidir el destino de la Tierra Media, y, por primera vez, parece que hay una pequeña esperanza. El interés del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, cuyo trono será reclamado por Aragorn. Sauron se dispone a lanzar un ataque decisivo contra Gondor. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, con la esperanza de llegar al Monte del Destino.</sinopsis>
+  </movie>
+  <movie nombre="El pianista" imagencar="pianista.jpg" urlt="https://www.youtube.com/embed/yDA1mK6v-ME" id="3">
+    <director>Roman Polanski</director>
+    <actores>
+      <actor>Adrien Brody</actor>
+      <actor>Thomas Kretschmann</actor>
+      <actor>Maureen Lipman</actor>
+      <actor>Ed Stoppard</actor>
+      <actor>Emilia Fox</actor>
+    </actores>
+    <sinopsis>Wladyslaw Szpilman, un brillante pianista polaco de origen judío, vive con su familia en el ghetto de Varsovia. Cuando, en 1939, los alemanes invaden Polonia, consigue evitar la deportación gracias a la ayuda de algunos amigos. Pero tendrá que vivir escondido y completamente aislado durante mucho tiempo,y para sobrevivir tendrá que afrontar constantes peligros.</sinopsis>
+  </movie>
+  <movie nombre="El Club de la lucha" imagencar="fight_club.jpg" urlt="https://www.youtube.com/embed/r5KDiUNZv4w" id="4">
+    <director>David Fincher</director>
+    <actores>
+      <actor>Edward Norton</actor>
+      <actor>Brad Pitt</actor>
+      <actor>Helena Bonham Carter</actor>
+      <actor>Meat Loaf</actor>
+      <actor>Jared Leto</actor>
+      <actor>Van Quattro</actor>
+    </actores>
+    <sinopsis>Un joven hastiado de su gris y monótona vida lucha contra el insomnio.En un viaje en avión conoce a un carismático vendedor de jabón que sostiene una teoría muy particular: el perfeccionismo es cosa de gentes débiles; sólo la autodestrucción hace que la vida merezca la pena.Ambos deciden entonces fundar un club secreto de lucha, donde poder descargar sus frustaciones y su ira, que tendrá un éxito arrollador.</sinopsis>
+  </movie>
+  <movie nombre="Forrest Gump" imagencar="forrest.jpg" urlt="https://www.youtube.com/embed/Cyh1LpxnaxI" id="5">
+    <director>Robert Zemeckis</director>
+    <actores>
+      <actor>Tom Hanks</actor>
+      <actor>Robin Wright</actor>
+      <actor>Gary Sinise</actor>
+      <actor>Mykelti Williamson</actor>
+      <actor>Sally Field</actor>
+      <actor>Rebecca Williams</actor>
+      <actor>Michael Conner Humphreys</actor>
+      <actor>Harold G. Herthum</actor>
+    </actores>
+    <sinopsis>Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo,gracias a su tenacidad y a subuen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presentela bella Jenny (Robin Wright),su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida.</sinopsis>
+  </movie>
+  <movie nombre="Guardianes de la Galaxia Vol.2" imagencar="guardians.jpg" urlt="https://www.youtube.com/embed/12gvJgLE4us" id="6">
+    <director>James Gunn</director>
+    <actores>
+      <actor>Chris Pratt</actor>
+      <actor>Zoe Saldana</actor>
+      <actor>Dave Bautista</actor>
+      <actor>Bradley Cooper</actor>
+      <actor>Vin Diesel</actor>
+      <actor>Kurt Russell</actor>
+      <actor>Michael Rooker</actor>
+      <actor>Karen Gillan</actor>
+    </actores>
+    <sinopsis>Continúan las aventuras del equipo en su travesía por los confines del cosmos. Los Guardianes deberán luchar para mantener unida a su nueva familia mientras intentan resolver el misterio de los verdaderos orígenes de Peter Quill.Viejos rivales se convertirán en nuevos aliados, y queridos personajes de los cómics clásicos acudirán en ayuda de nuestros héroes a medida que el universo cinematográfico de Marvel continúa expandiéndose.</sinopsis>
+  </movie>
+  <movie nombre="Interestelar" imagencar="interestelar.jpg" urlt="https://www.youtube.com/embed/CzjNHySfoeY" id="7">
+    <director>Christopher Nolan</director>
+    <actores>
+      <actor>Matthew McConaughey</actor>
+      <actor>Anne Hathaway </actor>
+      <actor>David Gyasi</actor>
+      <actor>Jessica Chastain</actor>
+      <actor>Mackenzie Foy</actor>
+      <actor>Matt Damon </actor>
+      <actor>Michael Caine </actor>
+      <actor>John Lithgow</actor>
+      <actor>Casey Affleckv</actor>
+    </actores>
+    <sinopsis>Al ver que la vida en la Tierra está llegando a su fin, un grupo de exploradores dirigidos por el piloto Cooper (McConaughey)y la científica Amelia (Hathaway) emprenden una misión que puede ser la más importante de la historia de la humanidad:viajan más allá de nuestra galaxia para descubrir otra que pueda garantizar el futuro de la raza humana.</sinopsis>
+  </movie>
+  <movie nombre="IT" imagencar="It.jpg" urlt="https://www.youtube.com/embed/mhv_A58CEaY" id="8">
+    <director>Andy Muschietti</director>
+    <actores>
+      <actor>Bill Skarsgård</actor>
+      <actor>Jackson Robert Scott</actor>
+      <actor>Sophia Lillis</actor>
+      <actor>Steven Williams</actor>
+      <actor>Owen Teague</actor>
+      <actor>Wyatt Oleff</actor>
+      <actor>Jack Grazer</actor>
+      <actor>Jeremy Ray Taylor</actor>
+      <actor>Megan Charpentier</actor>
+      <actor>Nicholas Hamilton</actor>
+      <actor>Jaeden Lieberher</actor>
+      <actor>Javier Botet</actor>
+      <actor>Finn Wolfhard</actor>
+    </actores>
+    <sinopsis>Años 80. En la ciudad de Derry, Maine, varios niños están despareciendo uno por uno dejando tras de sí restos de sus cuerpos. En un lugar del pueblo conocido como el Páramo, un grupo de siete chicos se reúnen por sus extraños y horripilantes encuentros comunes con una entidad sobrenatural disfrazada de tétrico payaso conocido como Pennywise...Eso. Bill Denborough mantiene una vendetta personal con este ser. 27 años después de su último encuentro con Pennywise el club de los Perdedores se reagrupa y en Derry dejando a un lado sus empleos y vidas porque Eso ha regresado y los niños están desapareciendo de nuevo. El problema es que no recuerdan qué sucedió el verano en que Pennywise detuvo sus actividades tres décadas atrás. Deben recuperar sus recuerdos para encontrar la clave con la que derrotar definitivamente a Pennywise y mantenerse vivos lo suficiente como para detener su tiranía. Nueva adaptación de la conocida novela de Stephen King sobre un monstruo que aterroriza a dos generaciones con la forma de un payaso.</sinopsis>
+  </movie>
+  <movie nombre="La La Land" imagencar="lala.jpg" urlt="https://www.youtube.com/embed/Bgi8Isg0tkE" id="9">
+    <director>Damien Chazelle</director>
+    <actores>
+      <actor>Emma Stone</actor>
+      <actor>yan Gosling</actor>
+      <actor>John Legend</actor>
+      <actor>Rosemarie DeWitt</actor>
+      <actor>J.K. Simmons</actor>
+      <actor>Finn Wittrock </actor>
+      <actor>Sonoya Mizuno</actor>
+      <actor>Jessica Rothe</actor>
+    </actores>
+    <sinopsis>Mia (Emma Stone), una joven aspirante a actriz que trabaja como camarera mientras acude a castings, y Sebastian (Ryan Gosling), un pianista de jazz que se gana la vida tocando en sórdidos tugurios, se enamoran, pero su gran ambición por llegar a la cima en sus carreras artísticas amenaza con separarlos.</sinopsis>
+  </movie>
+  <movie nombre="Logan" imagencar="logan.jpg" urlt="https://www.youtube.com/embed/tXmd3-sRh8o" id="10">
+    <director>James Mangold</director>
+    <actores>
+      <actor>Hugh Jackman</actor>
+      <actor>Patrick Stewart</actor>
+      <actor>Boyd Holbrook</actor>
+      <actor>Dafne Keen</actor>
+      <actor>Richard E. Grant</actor>
+      <actor>Stephen Merchant</actor>
+    </actores>
+    <sinopsis>Año 2024. La población mutante se ha visto drásticamente reducida y los X-Men se han visto obligados a separarse.Logan, cuyos poderes de regeneración se han debilitado, ha caído en el alcohol y se encarga de cuidar al anciano y enfermo Profesor X. Un día, una pequeña niña aparecerá en sus vidas y Lobezno tendrá que ayudarla. Se llama Laura y tendrán que cuidarla de unos peligrosos sicarios que van detrás de ella, aunque sea capaz de defenderse por sí misma con su extraordinaria destreza de combate. Por esta razón, comienza una implacable persecución hacia los mutantes que protegen a Laura y el gran secreto que ella esconde. En esta tercera entrega protagonizada por Lobezno podemos ver a los superhéroes ahogándose en sus propios problemas: envejecidos, enfermos y con pocos recursos económicos.El envejecido Logan tendrá que preguntarse hasta qué punto emplear las fuerzas que le quedan para hacer lo que es justo. Parece que se acaban los tiempos en los que los mutantes podían hacer justicia en el mundo.</sinopsis>
+  </movie>
+  <movie nombre="Múltiple" imagencar="multiple.jpg" urlt="https://www.youtube.com/embed/szfrnNeixLY" id="11">
+    <director>M. Night Shyamalan</director>
+    <actores>
+      <actor>James McAvoy</actor>
+      <actor>Anya Taylor-Joy</actor>
+      <actor>Betty Buckley</actor>
+      <actor>Brad William Henke</actor>
+      <actor>Haley Lu Richardson</actor>
+    </actores>
+    <sinopsis>A pesar de que Kevin (James McAvoy) le ha demostrado a su psiquiatra de confianza, la Dra. Fletcher (Betty Buckley),que posee 23 personalidades diferentes, aún queda una por emerger, decidida a dominar a todas las demás.Obligado a raptar a tres chicas adolescentes encabezadas por la decidida y observadora Casey (Anya Taylor-Joy), Kevin lucha por sobrevivir contra todas sus personalidades y la gente que le rodea, a medida que las paredes de sus compartimentos mentales se derrumban.</sinopsis>
+  </movie>
+  <movie nombre="Star Wars V: El Imperio Contrataca" imagencar="EpV.jpg" urlt="https://www.youtube.com/embed/SLRH7Lp2Wj4" id="12">
+    <director>Irvin Kershner</director>
+    <actores>
+      <actor>Mark Hamill</actor>
+      <actor>David Prowse</actor>
+      <actor>Harrison Ford</actor>
+      <actor>Carrie Fisher</actor>
+      <actor>Alec Guinness</actor>
+      <actor>Billy Dee Williams</actor>
+      <actor>Kenny Baker</actor>
+      <actor>Anthony Daniels</actor>
+      <actor>Jason Wingreen</actor>
+      <actor>Constantino Romero</actor>
+    </actores>
+    <sinopsis>El episodio V de la saga 'Star Wars', que llegase a los cines tres años después de la revolución cinematográfica que supuso 'Una nueva esperanza', continuaba con las aventuras del aprendiz de Jedi, Luke Skywalker, la princesa líder del movimiento rebelde, Leia y el conquistador contrabandista, Han Solo; en un film que no superó a su predecesor ni en lo que a recaudación se refiere, pero obtuvo una gran acogida por parte de la crítica. Nuestros héroes comenzaban una nueva aventura en 'El imperio contraataca' buscando refugio, ya que tras el exitoso ataque a la Estrella de la Muerte, las tropas imperiales deseaban dar caza a los rebeldes, que finalmente lograron esconderse en el helado planeta de Hoth. Luke (Mark Hamill), ansioso por aprender los secretos de la fuerza y derrotar al malvado Darth Vader, viaja a Dagobah en compañía de R2-D2 con la intención de encontrar al maestro Yoda. Mientras Han Solo (Harrison Ford), la princesa Leia (Carrie Fisher), Chewbacca, y C3PO logran esquivar a las fuerzas imperiales y piden refugio al antiguo propietario del Halcón Milenario, Lando Calrissian (Billy Dee Williams), en la ciudad minera de Bespin, donde les espera una trampa urdida por Vader. Irvin Kershner dirige este film, basado en la historia de George Lucas.</sinopsis>
+  </movie>
+  <movie id="13" nombre="El gran Lebowski" imagencar="eeee026263cef51403ad671e7474c5b251e8a192.jpg" urlt="https://www.youtube.com/embed/0q9ac28TAyw">
+    <director>Ethan Coen</director>
+    <actores>
+      <actor>Jeff Bridges</actor>
+      <actor>John Goodman</actor>
+      <actor>Julianne Moore</actor>
+      <actor>Steve Buscemi</actor>
+    </actores>
+    <sinopsis>En los inicios de la década de 1990, en plena Guerra del Golfo, viven en Los Ángeles tres amigos muy disímiles pero inseparables, Jeffrey «The Dude» Lebowski (Jeff Bridges), un vago desempleado que pasa sus días fumando marihuana y tomando rusos blancos; Walter Sobchak (John Goodman), veterano de Vietnam y un hombre de carácter huraño y explosivo, el frágil Donny (Steve Buscemi), opacado por sus compañeros. El trío comparten la pasión del bowling, afición que los une. Un día The Dude queda involucrado en un asunto ajeno, al ser confundido por dos matones con un millonario paralítico con quien comparte el nombre, quienes asaltan su casa, lo agreden y orinan en su alfombra, reclamando una deuda que la esposa de éste, Bunny (Tara Reid), mantiene con el jefe de ambos, el empresario pornográfico Jackie Treehorn (Ben Gazzara). Por ello, The Dude visita a su homónimo para reclamarle una compensación por la agresión y por el hecho de que los asaltantes hayan miccionado sobre su alfombra, pero al no recibir respuesta favorable, The Dude engaña al asistente de Lebowsky diciéndole que el mismo le autorizó a llevar la alfombra que quisiera de la casa, llevándose una consigo.
+Jeff Bridges, quien interpreta a «The Dude». Días más tarde, The Dude es llamado a casa del Sr. Lebowski (David Huddleston) y es informado de que Bunny ha sido secuestrada, y que, sospechando que los secuestradores son los matones que atacaron su casa, a The Dude le es ofrecida una sustancial recompensa monetaria si entrega personalmente el dinero. Walter, quien cree que Bunny se autosecuestró, se involucra en la operación, planeando lanzar un maletín con ropa sucia a los secuestradores y retener para sí y The Dude el dinero del rescate. Entre ello, y mientras The Dude se relaja en su casa escuchando música, es atacado nuevamente y noqueado por unos matones, para luego despertar y darse cuenta de que su nueva alfombra fue robada. Más tarde, The Dude recibe la llamada de Maude Lebowski (Julianne Moore), la hija del millonario Lebowski, quién le comenta que fue ella quien tomó la nueva alfombra y que su padre es en realidad un hombre pobre y sus bienes económicos provienen de la herencia de su finada esposa; además, le ofrece una parte del dinero del rescate si The Dude logra recuperarlo, pero no así la alfombra, la cual Maude desea conservar ya que la misma fue un regalo de su madre y posee un valor sentimental para ella.
+Con Walter intentando colaborar con él, The Dude tratará de dar con la pista de los secuestradores de Bunny, sufriendo en el ínterin amenazas de un grupo de nihilistas, quienes lo amenazan de muerte si no les entrega el dinero del rescate. Al final de la película conocerán la verdad del asunto, al precio de sufrir una tragedia muy cercana.</sinopsis>
+  </movie>
+</movies>

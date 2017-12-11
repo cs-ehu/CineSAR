@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comentarios ultid="7">
+  <comentario id="1" usuario="Alfonso" idpel="2" fechahora="08/12/2017 14:34">
+    <contenido>Adoro el señor de los anillos, aunque me gustaron mucho más los libros.</contenido>
+  </comentario>
+  <comentario id="2" usuario="Michel97" idpel="1" fechahora="08/12/2017 13:34">
+    <contenido>La mejor película de la trílogia. Obra maestra.</contenido>
+  </comentario>
+  <comentario id="3" usuario="OierRojo" idpel="6" fechahora="08/12/2017 13:34">
+    <contenido>Adoro esta película. Lloré de la risa.</contenido>
+  </comentario>
+  <comentario id="4" usuario="OierRojo" idpel="1" fechahora="08/12/2017 14:34">
+    <contenido>Obra maestra del séptimo arte. 100% recomendada.</contenido>
+  </comentario>
+  <comentario id="5" usuario="FosterGun" idpel="1" fechahora="10/12/2017 14:48:16">
+    <contenido>Me encanta esta película. Adoro el cine negro.</contenido>
+  </comentario>
+  <comentario id="6" usuario="FosterGun" idpel="9" fechahora="10/12/2017 16:09:13">
+    <contenido>Final agridulce pero muy muy disfrutable, la recomiendo.</contenido>
+  </comentario>
+  <comentario id="7" usuario="FosterGun" idpel="13" fechahora="10/12/2017 19:36:36">
+    <contenido>Me encanta esta película, sin duda la recomiendo si te encantan las comedias absurdas.</contenido>
+  </comentario>
+</comentarios>
