@@ -23,6 +23,8 @@ C -- XML --> D[Cines/Películas]
 C -- PHPMyAdmin --> E[Usuarios]
 ```
 
+![Alt_2](https://raw.githubusercontent.com/cs-ehu/CineSAR/master/graph_mvc.png)
+
 ## Instalación de la aplicación
 Respecto a instalación de aplicación nos referimos de por sí a su soporte para su utilización, dada que es una aplicación web para poder ser utilizada necesitamos que esté entre otras cosas subida a un servicio de hosting, debido a que reúne las siguientes tecnologías implementadas:
 
@@ -54,7 +56,7 @@ A continuación explicaremos su instalación de forma resumida en algunos pasos.
 ## Términos de uso
 La licencia de está aplicación sostiene que es de libre uso. Sin embargo esta aplicación sigue la licencia de CC, Attribution-NonCommercial.  
 
-![Alt_2](https://upload.wikimedia.org/wikipedia/commons/9/99/Cc-by-nc_icon.svg)
+![Alt_3](https://upload.wikimedia.org/wikipedia/commons/9/99/Cc-by-nc_icon.svg)
 
 ## Contacto
 En caso de notificar algún tipo de error con la aplicación, se puede contactar conmigo a raiz de mi cuenta [__GitHub__](https://github.com/FosterGun). 
