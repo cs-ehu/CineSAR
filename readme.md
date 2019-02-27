@@ -1,4 +1,6 @@
 # CineSAR
+[TOC]
+
 **CineSAR** es una aplicación de consulta de información sobre películas en general y sobre los cines que hay en Donosti. Esta aplicación fue planteada como una práctica de una asignatura de Ingeniería Informática llamada Servicios y Aplicaciones en Red.  
 
 ![Alt](https://raw.githubusercontent.com/FosterGun/CineSAR/master/favicon.png#right)  
