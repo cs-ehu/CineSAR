@@ -65,9 +65,9 @@ A continuación explicaremos su instalación de forma resumida en algunos pasos.
 4. Probar la aplicación, después de seguir estos pasos, lo más probable es que no exista ya ningún error y se pueda utilizar la aplicación sin complicación alguna.
 
 ## Términos de uso
-La licencia de está aplicación sostiene que es de libre uso. Sin embargo esta aplicación sigue la licencia de CC, Attribution-NonCommercial.  
+La licencia de está aplicación es la GNU General Public License v3 y esta sostiene que es de libre uso total. 
 
-![Alt_3](https://upload.wikimedia.org/wikipedia/commons/9/99/Cc-by-nc_icon.svg)
+![Alt_3](https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg)
 
 ## Contacto
 En caso de notificar algún tipo de error con la aplicación, se puede contactar conmigo a raiz de mi cuenta [__GitHub__](https://github.com/FosterGun). 
