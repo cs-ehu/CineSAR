@@ -2,6 +2,13 @@
 
 ## Índice
 1. [Introducción](#introducción)
+2. [Presentación y utilización de la aplicación](#presentación-y-utilización-de-la-aplicación)
+3. [Estructura de la aplicación](#estructura-de-la-aplicación)
+4. [Instalación de la aplicación](#instalación-de-la-aplicación)
+5. [Términos de uso](#términos-de-uso)
+6. [Contacto](#contacto)
+
+
 ## Introducción
 **CineSAR** es una aplicación de consulta de información sobre películas en general y sobre los cines que hay en Donosti. Esta aplicación fue planteada como una práctica de una asignatura de Ingeniería Informática llamada Servicios y Aplicaciones en Red.  
 
