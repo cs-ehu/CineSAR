@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CineSAR: Referencia del Archivo serverManager.php</title>
+<title>CineSAR: Referencia del Archivo C:/Users/Michel/Desktop/CineSAR/serverManager.php</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
   <div class="summary">
 <a href="#func-members">Funciones</a>  </div>
   <div class="headertitle">
-<div class="title">Referencia del Archivo serverManager.php</div>  </div>
+<div class="title">Referencia del Archivo C:/Users/Michel/Desktop/CineSAR/serverManager.php</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -114,6 +114,14 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Inserta un comentario para una película concreta en su correspondiente fichero xml.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$idmovie</td><td>la id de la película a la que se quiere añadir un comentario. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$coment</td><td>el contenido del comentario que se quiere añadir a la película por medio de un fichero xml. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -142,6 +150,15 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Comprueba si un email dado ya existe en la base de datos.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$email</td><td>el email del usuario que se va a comprobar si ya existe en la base de datos. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$conn</td><td>cadena de caracteres que conecta con la base de datos para comprobar si existe o no el email dado.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>boolean $emailExist indica si el email ya existe. </dd></dl>
 
 </div>
 </div>
@@ -170,6 +187,15 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Comprueba si un usuario dado ya existe en la base de datos.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$user</td><td>el nick del usuario que se va a comprobar si ya existe en la base de datos. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$conn</td><td>cadena de caracteres que conecta con la base de datos para comprobar si existe o no el usuario dado.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>boolean $userExist indica si el usuario ya existe. </dd></dl>
 
 </div>
 </div>
@@ -188,6 +214,13 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Formatea un fichero xml dado su ruta de fichero.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$path</td><td>la ruta del xml que se quiere formatear. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -205,6 +238,8 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve todos los datos de los cines del fichero xml con un formato html.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>string $cines_html los datos de los cines en html. </dd></dl>
 
 </div>
 </div>
@@ -223,6 +258,14 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve los datos de los comentarios de una película concreta a través de su id por medio de su fichero xml con un formato html.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td>la id de la película de la que se quiere los datos de los comentarios.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string $coments_html los comentarios de la película con formato html. </dd></dl>
 
 </div>
 </div>
@@ -241,6 +284,14 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve los datos de una película concreta a través de su id por medio de su fichero xml con un formato html.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td>la id de la película de la que se quiere los datos.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string $movies_html la información de la película con su formato html. </dd></dl>
 
 </div>
 </div>
@@ -258,6 +309,8 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Devuelve todos los títulos de la películas del fichero xml con un formato html con sus respectivos enlaces de información.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>string $movies_html los títulos de las películas en html con su enlace referenciado. </dd></dl>
 
 </div>
 </div>
@@ -275,6 +328,19 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Inserta los datos de una película en su correspondiente fichero xml.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">(interna)</td><td>string $title el título de la película que se va a insertar en su fichero xml. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $director el director de la película que se va a insertar en su fichero xml. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $synopsis la sinopsis de la película que se va a insertar en su fichero xml. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $actors los actores de la película que se van a insertar en su fichero xml. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $trailer la URL del trailer de la película que se va a insertar en su fichero xml. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>file $moviecover la carátula de la película que se va a insertar en su fichero xml.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>boolean $operationMsg indica si ĺa inserción de la película ha ido correctamente. </dd></dl>
 
 </div>
 </div>
@@ -292,6 +358,15 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Se encarga de loguear un usuario a través de los datos del formulario.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">(interna)</td><td>string $email el email del usuario que se quiere loguear. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $pass la contraseña del usuario que se quiere loguear.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string $operationMsg informando de se ha realizado correctamente el logueo o ha fallado. </dd></dl>
 
 </div>
 </div>
@@ -309,6 +384,16 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Se encarga de registrar un usuario a través de los datos del formulario.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">(interna)</td><td>string $user el nick del usuario que se quiere registrar. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $email el email del usuario que se quiere registrar. </td></tr>
+    <tr><td class="paramname">(interna)</td><td>string $pass la contraseña del usuario que se quiere registrar.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string $operationMsg informando de se ha realizado correctamente el registro o ha fallado. </dd></dl>
 
 </div>
 </div>
@@ -327,6 +412,14 @@ Funciones</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Valida el email de un usuario con un patrón.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$email</td><td>el email del usuario que se va a validar</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>boolean $emailIsOk indica si el email es correcto según el patrón o no </dd></dl>
 
 </div>
 </div>
