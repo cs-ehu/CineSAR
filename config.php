@@ -1,30 +1,34 @@
 <?php
 
 	/**
-	* Localización del servidor de la base de datos.
+	*	Localización del servidor de la base de datos.
 	*
-	* @var string
+	*	@var string
+	*
 	*/
 	$serversql = "localhost";
 
 	/**
-	* Usuario de la base de datos.
+	*	Usuario de la base de datos.
 	*
-	* @var string
+	*	@var string
+	*
 	*/
 	$usersql = "root";
 
 	/**
-	* Contraseña del usuario de la base de datos.
+	*	Contraseña del usuario de la base de datos.
 	*
-	* @var string
+	*	@var string
+	*
 	*/
 	$passsql = "";
 
 	/**
-	* Nombre de la base de datos.
+	*	Nombre de la base de datos.
 	*
-	* @var string
+	*	@var string
+	*
 	*/
 	$database = "cinema";
 ?>

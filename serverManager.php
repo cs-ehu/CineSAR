@@ -3,6 +3,8 @@
 	/**
 	*	Se encarga de registrar un usuario a través de los datos del formulario.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param (interna) string $user el nick del usuario que se quiere registrar.
 	*	@param (interna) string $email el email del usuario que se quiere registrar.
 	*	@param (interna) string $pass la contraseña del usuario que se quiere registrar.
@@ -93,6 +95,8 @@
 	/**
 	*	Se encarga de loguear un usuario a través de los datos del formulario.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param (interna) string $email el email del usuario que se quiere loguear.
 	*	@param (interna) string $pass la contraseña del usuario que se quiere loguear.
 	*
@@ -160,6 +164,8 @@
 	/**
 	*	Valida el email de un usuario con un patrón.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param string $email el email del usuario que se va a validar
 	*
 	*	@return boolean $emailIsOk indica si el email es correcto según el patrón o no
@@ -172,6 +178,8 @@
 
 	/**
 	*	Comprueba si un email dado ya existe en la base de datos.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
 	*
 	*	@param string $email el email del usuario que se va a comprobar si ya existe en la base de datos.
 	*	@param string $conn cadena de caracteres que conecta con la base de datos para comprobar si existe o no el email dado.
@@ -192,6 +200,8 @@
 	/**
 	*	Comprueba si un usuario dado ya existe en la base de datos.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param string $user el nick del usuario que se va a comprobar si ya existe en la base de datos.
 	*	@param string $conn cadena de caracteres que conecta con la base de datos para comprobar si existe o no el usuario dado.
 	*
@@ -210,6 +220,8 @@
 
 	/**
 	*	Inserta los datos de una película en su correspondiente fichero xml.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
 	*
 	*	@param (interna) string $title el título de la película que se va a insertar en su fichero xml.
 	*	@param (interna) string $director el director de la película que se va a insertar en su fichero xml.
@@ -378,6 +390,8 @@
 	/**
 	*	Inserta un comentario para una película concreta en su correspondiente fichero xml.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param int $idmovie la id de la película a la que se quiere añadir un comentario.
 	*	@param string $coment el contenido del comentario que se quiere añadir a la película por medio de un fichero xml.
 	*
@@ -424,6 +438,8 @@
 
 	/**
 	*	Devuelve todos los datos de los cines del fichero xml con un formato html.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
 	*
 	*	@return string $cines_html los datos de los cines en html.
 	*
@@ -475,6 +491,8 @@
 	/**
 	*	Devuelve los datos de una película concreta a través de su id por medio de su fichero xml con un formato html.
 	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
 	*	@param int $id la id de la película de la que se quiere los datos.
 	*
 	*	@return string $movies_html la información de la película con su formato html.
@@ -521,6 +539,8 @@
 
 	/**
 	*	Devuelve los datos de los comentarios de una película concreta a través de su id por medio de su fichero xml con un formato html.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
 	*
 	*	@param int $id la id de la película de la que se quiere los datos de los comentarios.
 	*

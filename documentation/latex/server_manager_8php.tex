@@ -38,6 +38,9 @@
 
 Inserta un comentario para una película concreta en su correspondiente fichero xml.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 int & {\em \$idmovie} & la id de la película a la que se quiere añadir un comentario. \\
@@ -45,6 +48,10 @@ int & {\em \$idmovie} & la id de la película a la que se quiere añadir un come
 string & {\em \$coment} & el contenido del comentario que se quiere añadir a la película por medio de un fichero xml. \\
 \hline
 \end{DoxyParams}
+
+
+Definición en la línea 400 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_ae11c1d4bc35a0e731d6c06d99ed1a48f}\label{server_manager_8php_ae11c1d4bc35a0e731d6c06d99ed1a48f}} 
 \index{serverManager.php@{serverManager.php}!existsEmail@{existsEmail}}
 \index{existsEmail@{existsEmail}!serverManager.php@{serverManager.php}}
@@ -53,6 +60,9 @@ string & {\em \$coment} & el contenido del comentario que se quiere añadir a la
 
 Comprueba si un email dado ya existe en la base de datos.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 string & {\em \$email} & el email del usuario que se va a comprobar si ya existe en la base de datos. \\
@@ -63,6 +73,10 @@ string & {\em \$conn} & cadena de caracteres que conecta con la base de datos pa
 \begin{DoxyReturn}{Devuelve}
 boolean \$email\+Exist indica si el email ya existe. 
 \end{DoxyReturn}
+
+
+Definición en la línea 190 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_a51df6b16fb354abb57b1e2b7df901faf}\label{server_manager_8php_a51df6b16fb354abb57b1e2b7df901faf}} 
 \index{serverManager.php@{serverManager.php}!existsUser@{existsUser}}
 \index{existsUser@{existsUser}!serverManager.php@{serverManager.php}}
@@ -71,6 +85,9 @@ boolean \$email\+Exist indica si el email ya existe.
 
 Comprueba si un usuario dado ya existe en la base de datos.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 string & {\em \$user} & el nick del usuario que se va a comprobar si ya existe en la base de datos. \\
@@ -81,6 +98,10 @@ string & {\em \$conn} & cadena de caracteres que conecta con la base de datos pa
 \begin{DoxyReturn}{Devuelve}
 boolean \$user\+Exist indica si el usuario ya existe. 
 \end{DoxyReturn}
+
+
+Definición en la línea 211 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_ab4f3bf12b92f40682511b689e9844461}\label{server_manager_8php_ab4f3bf12b92f40682511b689e9844461}} 
 \index{serverManager.php@{serverManager.php}!formatoXML@{formatoXML}}
 \index{formatoXML@{formatoXML}!serverManager.php@{serverManager.php}}
@@ -94,6 +115,10 @@ Formatea un fichero xml dado su ruta de fichero.
 string & {\em \$path} & la ruta del xml que se quiere formatear. \\
 \hline
 \end{DoxyParams}
+
+
+Definición en la línea 431 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_ac56532a15e25498ecfc3ce334217adb2}\label{server_manager_8php_ac56532a15e25498ecfc3ce334217adb2}} 
 \index{serverManager.php@{serverManager.php}!getCines@{getCines}}
 \index{getCines@{getCines}!serverManager.php@{serverManager.php}}
@@ -102,9 +127,16 @@ string & {\em \$path} & la ruta del xml que se quiere formatear. \\
 
 Devuelve todos los datos de los cines del fichero xml con un formato html.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 \begin{DoxyReturn}{Devuelve}
 string \$cines\+\_\+html los datos de los cines en html. 
 \end{DoxyReturn}
+
+
+Definición en la línea 448 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_a165bd4fb886e760759845a26ed7d1c2f}\label{server_manager_8php_a165bd4fb886e760759845a26ed7d1c2f}} 
 \index{serverManager.php@{serverManager.php}!getComents@{getComents}}
 \index{getComents@{getComents}!serverManager.php@{serverManager.php}}
@@ -113,6 +145,9 @@ string \$cines\+\_\+html los datos de los cines en html.
 
 Devuelve los datos de los comentarios de una película concreta a través de su id por medio de su fichero xml con un formato html.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 int & {\em \$id} & la id de la película de la que se quiere los datos de los comentarios.\\
@@ -121,6 +156,10 @@ int & {\em \$id} & la id de la película de la que se quiere los datos de los co
 \begin{DoxyReturn}{Devuelve}
 string \$coments\+\_\+html los comentarios de la película con formato html. 
 \end{DoxyReturn}
+
+
+Definición en la línea 551 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_a7b9eed7e71146a4086047f9eaaf59985}\label{server_manager_8php_a7b9eed7e71146a4086047f9eaaf59985}} 
 \index{serverManager.php@{serverManager.php}!getMovie@{getMovie}}
 \index{getMovie@{getMovie}!serverManager.php@{serverManager.php}}
@@ -129,6 +168,9 @@ string \$coments\+\_\+html los comentarios de la película con formato html.
 
 Devuelve los datos de una película concreta a través de su id por medio de su fichero xml con un formato html.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 int & {\em \$id} & la id de la película de la que se quiere los datos.\\
@@ -137,6 +179,10 @@ int & {\em \$id} & la id de la película de la que se quiere los datos.\\
 \begin{DoxyReturn}{Devuelve}
 string \$movies\+\_\+html la información de la película con su formato html. 
 \end{DoxyReturn}
+
+
+Definición en la línea 502 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_af16c238f2a71b7a08ff95871ae64c825}\label{server_manager_8php_af16c238f2a71b7a08ff95871ae64c825}} 
 \index{serverManager.php@{serverManager.php}!getMovies@{getMovies}}
 \index{getMovies@{getMovies}!serverManager.php@{serverManager.php}}
@@ -148,6 +194,10 @@ Devuelve todos los títulos de la películas del fichero xml con un formato html
 \begin{DoxyReturn}{Devuelve}
 string \$movies\+\_\+html los títulos de las películas en html con su enlace referenciado. 
 \end{DoxyReturn}
+
+
+Definición en la línea 478 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_aea99533bc26bc9f13ff095ef792636ea}\label{server_manager_8php_aea99533bc26bc9f13ff095ef792636ea}} 
 \index{serverManager.php@{serverManager.php}!insertarPeli@{insertarPeli}}
 \index{insertarPeli@{insertarPeli}!serverManager.php@{serverManager.php}}
@@ -156,6 +206,9 @@ string \$movies\+\_\+html los títulos de las películas en html con su enlace r
 
 Inserta los datos de una película en su correspondiente fichero xml.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}{Parámetros}
 {\em (interna)} & string \$title el título de la película que se va a insertar en su fichero xml. \\
@@ -174,6 +227,10 @@ Inserta los datos de una película en su correspondiente fichero xml.
 \begin{DoxyReturn}{Devuelve}
 boolean \$operation\+Msg indica si ĺa inserción de la película ha ido correctamente. 
 \end{DoxyReturn}
+
+
+Definición en la línea 236 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_ab2dbd54cec9085bdf37669044a6400ea}\label{server_manager_8php_ab2dbd54cec9085bdf37669044a6400ea}} 
 \index{serverManager.php@{serverManager.php}!logearUsuario@{logearUsuario}}
 \index{logearUsuario@{logearUsuario}!serverManager.php@{serverManager.php}}
@@ -182,6 +239,9 @@ boolean \$operation\+Msg indica si ĺa inserción de la película ha ido correct
 
 Se encarga de loguear un usuario a través de los datos del formulario.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}{Parámetros}
 {\em (interna)} & string \$email el email del usuario que se quiere loguear. \\
@@ -192,6 +252,10 @@ Se encarga de loguear un usuario a través de los datos del formulario.
 \begin{DoxyReturn}{Devuelve}
 string \$operation\+Msg informando de se ha realizado correctamente el logueo o ha fallado. 
 \end{DoxyReturn}
+
+
+Definición en la línea 106 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_abeae2072dd7ffa5b78da10599eac6f57}\label{server_manager_8php_abeae2072dd7ffa5b78da10599eac6f57}} 
 \index{serverManager.php@{serverManager.php}!registrarUsuario@{registrarUsuario}}
 \index{registrarUsuario@{registrarUsuario}!serverManager.php@{serverManager.php}}
@@ -200,6 +264,9 @@ string \$operation\+Msg informando de se ha realizado correctamente el logueo o 
 
 Se encarga de registrar un usuario a través de los datos del formulario.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}{Parámetros}
 {\em (interna)} & string \$user el nick del usuario que se quiere registrar. \\
@@ -212,6 +279,10 @@ Se encarga de registrar un usuario a través de los datos del formulario.
 \begin{DoxyReturn}{Devuelve}
 string \$operation\+Msg informando de se ha realizado correctamente el registro o ha fallado. 
 \end{DoxyReturn}
+
+
+Definición en la línea 15 del archivo server\+Manager.\+php.
+
 \mbox{\Hypertarget{server_manager_8php_a73637e760498c5cea55074896ec982ac}\label{server_manager_8php_a73637e760498c5cea55074896ec982ac}} 
 \index{serverManager.php@{serverManager.php}!validEmail@{validEmail}}
 \index{validEmail@{validEmail}!serverManager.php@{serverManager.php}}
@@ -220,6 +291,9 @@ string \$operation\+Msg informando de se ha realizado correctamente el registro 
 
 Valida el email de un usuario con un patrón.
 
+\begin{DoxyAuthor}{Autor}
+Miguel Ángel Blanco \href{mailto:mblanco040@ikasle.ehu.eus}{\texttt{ mblanco040@ikasle.\+ehu.\+eus}}
+\end{DoxyAuthor}
 
 \begin{DoxyParams}[1]{Parámetros}
 string & {\em \$email} & el email del usuario que se va a validar\\
@@ -228,3 +302,7 @@ string & {\em \$email} & el email del usuario que se va a validar\\
 \begin{DoxyReturn}{Devuelve}
 boolean \$email\+Is\+Ok indica si el email es correcto según el patrón o no 
 \end{DoxyReturn}
+
+
+Definición en la línea 174 del archivo server\+Manager.\+php.
+

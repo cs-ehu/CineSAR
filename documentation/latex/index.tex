@@ -1,0 +1,72 @@
+
+\begin{DoxyEnumerate}
+\item \href{\#introducción}{\texttt{ Introducción}}
+\item \href{\#presentación-y-utilización-de-la-aplicación}{\texttt{ Presentación y utilización de la aplicación}}
+\item \href{\#estructura-de-la-aplicación}{\texttt{ Estructura de la aplicación}}
+\item \href{\#instalación-de-la-aplicación}{\texttt{ Instalación de la aplicación}}
+\item \href{\#términos-de-uso}{\texttt{ Términos de uso}}
+\item \href{\#contacto}{\texttt{ Contacto}}
+\end{DoxyEnumerate}
+
+{\bfseries{Cine\+S\+AR}} es una aplicación de consulta de información sobre películas en general y sobre los cines que hay en Donosti. Esta aplicación fue planteada como una práctica de una asignatura de Ingeniería Informática llamada Servicios y Aplicaciones en Red.
+
+
+
+Esta práctica parte de la motivación de utilizar parte de las tecnologías de red que se habían visto en la asignatura, en concreto todas las de web y presentaba una temática libre, por lo que esta fue la que se eligió para conformar dicho proyecto.
+
+La aplicación inicialmente presenta una página en la que se puede elegir el apartado del que se quiere ver información, presentando en un bloque a un lado la opción {\itshape Cines} y a otro lado la opción {\itshape Películas}, en pro de elegir sobre que se quiere ver información.
+
+Si clicamos en el apartado de {\itshape Cines} esto nos mostrará una página en la que se podrán ver en orden los numerosos cines de San Sebastián, en cambio si clicamos en la opción contigua {\itshape Películas} esto nos mostrará una lista de películas. Dentro de esa lista de películas si escogemos una nos llevará a una página específica con la información de la película, la cual contiene desde su sinopsis, reparto y portada hasta un trailer de la misma. En cada película se pueden escribir comentarios.
+
+$>$Para poder escribir comentarios o añadir películas a la aplicación basta con registrarse en la página.
+
+La estructura de la aplicación es sencilla y reúne en cierto modo el modelo-\/vista-\/controlador.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{graph LR}
+\DoxyCodeLine{A[Cliente/Vista] -- XHTML/CSS/JavaScript --> B[Servidor/Controlador]}
+\DoxyCodeLine{B -- PHP --> C[Datos/Modelo]}
+\DoxyCodeLine{C -- XML --> D[Cines/Películas]}
+\DoxyCodeLine{C -- PHPMyAdmin --> E[Usuarios]}
+\end{DoxyCode}
+
+
+
+
+Respecto a instalación de aplicación nos referimos de por sí a su soporte para su utilización, dada que es una aplicación web para poder ser utilizada necesitamos que esté entre otras cosas subida a un servicio de hosting, debido a que reúne las siguientes tecnologías implementadas\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{X\+H\+T\+ML}}\+: Para lo que es el contenido estático de las páginas.
+\item {\bfseries{P\+HP}}\+: Para todas las utilidades de lado servidor como el envío de datos o bien el contenido creado de forma dinámica en las páginas web.
+\item {\bfseries{Java\+Script}}\+: Para el apartado de comprobaciones de los datos, así como animaciones o accesorios para dar estilo a las páginas.
+\item {\bfseries{J\+Query}}\+: Conforme a hacer más sencillo el uso de todo lo que incorpora Java\+Script.
+\item {\bfseries{X\+ML}}\+: Para la obtención de datos sobre los {\itshape Cines} o {\itshape Películas}.
+\item {\bfseries{P\+H\+P\+My\+Admin}}\+: Para la base de datos de los usuarios de la aplicación.
+\item {\bfseries{Apache}}\+: Para dar soporte de hosting a la aplicación.
+\end{DoxyItemize}
+
+A continuación explicaremos su instalación de forma resumida en algunos pasos.
+
+
+\begin{DoxyEnumerate}
+\item Como ya se ha explicado anteriormente, es necesario un servicio de hosting que nos permita utilizar todas las tecnologías comentadas. Para ello hay dos posibilidades\+:
+\begin{DoxyItemize}
+\item Gestionar nuestro propio servicio de hosting (para internet y local).
+\item Utilizar un servicio de hosting ya existente (para internet).
+\end{DoxyItemize}
+
+Para esta instalación tomaremos en cuenta la primera forma debido a su comodidad, aunque el uso de servicios de hosting online puedan presentarse cómodos para este tipo de cosas ({\itshape véase la aplicación de hosting que reúne todas estas tecnologías \href{https://www.000webhost.com/}{\texttt{ {\bfseries{000webhost}}}}}). Para este caso se puede utilizar la aplicación {\bfseries{W\+A\+MP}} para equipos que soporten Windows o bien su equivalente en Linux, {\bfseries{L\+A\+MP}}.
+
+Estas aplicaciones soportarán todas las tecnologías comentadas anteriormente.
+\item Una vez se tenga {\bfseries{W\+A\+MP}} o {\bfseries{L\+A\+MP}} instalada, el siguiente paso será desplegar en local la aplicación. Para ello basta con abrir la carpeta desde dónde se mostrará el contenido y dónde deberemos pegar todos los archivos de los que dispone este repositorio en Git\+Hub. Este lugar dónde pegar los archivos se encuentra en una de las carpetas de la aplicación de hosting al que responde al directorio \+\_\+{\ttfamily /var/www/html}\+\_\+. Para ello se recomienda arrastar la carpeta que contenga todo el contenido de la aplicación.
+\item Una vez lancemos todos los servicios de web y veamos que la página carga tanto los {\itshape Cines} como las {\itshape Películas}. El siguiente paso será ingresar en {\ttfamily localhost} a {\bfseries{Php\+My\+Admin}}, ya que este se encargará de todo el apartado de usuarios. Para el despliegue de la base de datos bastará con cargar el fichero sql asociado al proyecto de forma que automáticamente se nos creé la base de datos y la aplicación la tenga asignada.
+\item Probar la aplicación, después de seguir estos pasos, lo más probable es que no exista ya ningún error y se pueda utilizar la aplicación sin complicación alguna.
+\end{DoxyEnumerate}
+
+La licencia de está aplicación es la G\+NU General Public License v3 y esta sostiene que es de libre uso total.
+
+
+
+En caso de notificar algún tipo de error con la aplicación, se puede contactar conmigo a raiz de mi cuenta \href{https://github.com/FosterGun}{\texttt{ {\bfseries{Git\+Hub}}}}. 
