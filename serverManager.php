@@ -1,5 +1,17 @@
 <?php
-
+	
+	/**
+	*	Se encarga de registrar un usuario a través de los datos del formulario.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param (interna) string $user el nick del usuario que se quiere registrar.
+	*	@param (interna) string $email el email del usuario que se quiere registrar.
+	*	@param (interna) string $pass la contraseña del usuario que se quiere registrar.
+	*
+	*	@return string $operationMsg informando de se ha realizado correctamente el registro o ha fallado.	
+	*
+	*/
 	function registrarUsuario() {
 		include "config.php";
 
@@ -79,6 +91,18 @@
 
 	}
 
+
+	/**
+	*	Se encarga de loguear un usuario a través de los datos del formulario.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param (interna) string $email el email del usuario que se quiere loguear.
+	*	@param (interna) string $pass la contraseña del usuario que se quiere loguear.
+	*
+	*	@return string $operationMsg informando de se ha realizado correctamente el logueo o ha fallado.
+	*
+	*/
 	function logearUsuario() {
 		include "config.php";
 
@@ -137,10 +161,32 @@
 
 	}
 
+	/**
+	*	Valida el email de un usuario con un patrón.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param string $email el email del usuario que se va a validar
+	*
+	*	@return boolean $emailIsOk indica si el email es correcto según el patrón o no
+	*
+	*/
 	function validEmail($email) {
 		return filter_var($email, FILTER_VALIDATE_EMAIL) && preg_match('/^[a-zA-Z]+\\d{3}@(gmail|hotmail|outlook)\.(com|es)$/', $email);
 	}
 
+
+	/**
+	*	Comprueba si un email dado ya existe en la base de datos.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param string $email el email del usuario que se va a comprobar si ya existe en la base de datos.
+	*	@param string $conn cadena de caracteres que conecta con la base de datos para comprobar si existe o no el email dado.
+	*
+	*	@return boolean $emailExist indica si el email ya existe.
+	*
+	*/
 	function existsEmail($email, $conn) {
 		$query = mysqli_query($conn, "SELECT * FROM usuarios WHERE email = \"$email\"");
 
@@ -151,6 +197,17 @@
 		return mysqli_num_rows($query) > 0;
 	}
 
+	/**
+	*	Comprueba si un usuario dado ya existe en la base de datos.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param string $user el nick del usuario que se va a comprobar si ya existe en la base de datos.
+	*	@param string $conn cadena de caracteres que conecta con la base de datos para comprobar si existe o no el usuario dado.
+	*
+	*	@return boolean $userExist indica si el usuario ya existe.
+	*
+	*/
 	function existsUser($user, $conn) {
 		$query = mysqli_query($conn, "SELECT * FROM usuarios WHERE username = \"$user\"");
 
@@ -161,6 +218,21 @@
 		return mysqli_num_rows($query) > 0;
 	}
 
+	/**
+	*	Inserta los datos de una película en su correspondiente fichero xml.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param (interna) string $title el título de la película que se va a insertar en su fichero xml.
+	*	@param (interna) string $director el director de la película que se va a insertar en su fichero xml.
+	*	@param (interna) string $synopsis la sinopsis de la película que se va a insertar en su fichero xml.
+	*	@param (interna) string $actors los actores de la película que se van a insertar en su fichero xml.
+	*	@param (interna) string $trailer la URL del trailer de la película que se va a insertar en su fichero xml.
+	*	@param (interna) file $moviecover la carátula de la película que se va a insertar en su fichero xml.
+	*
+	*	@return boolean $operationMsg indica si ĺa inserción de la película ha ido correctamente.
+	*
+	*/
 	function insertarPeli() {
 		$src = "imgs/moviesimgs/";
 		$movies = simplexml_load_file("xml/movies.xml");
@@ -315,6 +387,16 @@
 		echo $operationMsg;
 	}
 
+	/**
+	*	Inserta un comentario para una película concreta en su correspondiente fichero xml.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param int $idmovie la id de la película a la que se quiere añadir un comentario.
+	*	@param string $coment el contenido del comentario que se quiere añadir a la película por medio de un fichero xml.
+	*
+	*
+	*/
 	function comentarPeli($idmovie) {
 		if(isset($_POST['comentario']) && !empty($_POST['comentario'])) {
 			date_default_timezone_set('Europe/Madrid');
@@ -339,6 +421,13 @@
 
 	}
 
+	/**
+	*	Formatea un fichero xml dado su ruta de fichero.
+	*
+	*	@param string $path la ruta del xml que se quiere formatear.
+	*
+	*
+	*/
 	function formatoXML($path) {
 		$dom = new DOMDocument("1.0", "UTF-8");
 		$dom->preserveWhiteSpace = false;		
@@ -347,6 +436,15 @@
 		$dom->save($path);
 	}
 
+	/**
+	*	Devuelve todos los datos de los cines del fichero xml con un formato html.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@return string $cines_html los datos de los cines en html.
+	*
+	*
+	*/
 	function getCines() {
 		$cines_html = "";
 		$cinemas = simplexml_load_file("xml/cinemas.xml");
@@ -370,6 +468,13 @@
 		echo $cines_html;
 	}
 
+	/**
+	*	Devuelve todos los títulos de la películas del fichero xml con un formato html con sus respectivos enlaces de información.
+	*
+	*	@return string $movies_html los títulos de las películas en html con su enlace referenciado.
+	*
+	*
+	*/
 	function getMovies() {
 		$movies_html = "";
 		$movies = simplexml_load_file("xml/movies.xml");
@@ -383,6 +488,17 @@
 		echo $movies_html;
 	}
 
+	/**
+	*	Devuelve los datos de una película concreta a través de su id por medio de su fichero xml con un formato html.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param int $id la id de la película de la que se quiere los datos.
+	*
+	*	@return string $movies_html la información de la película con su formato html.
+	*
+	*
+	*/
 	function getMovie($id) {
 		$movies_html = "";
 
@@ -421,6 +537,17 @@
 		echo $movies_html;
 	}
 
+	/**
+	*	Devuelve los datos de los comentarios de una película concreta a través de su id por medio de su fichero xml con un formato html.
+	*
+	*	@author Miguel Ángel Blanco <mblanco040@ikasle.ehu.eus>
+	*
+	*	@param int $id la id de la película de la que se quiere los datos de los comentarios.
+	*
+	*	@return string $coments_html los comentarios de la película con formato html.
+	*
+	*
+	*/
 	function getComents($id) {
 		$coments_html = "";
 		$coments = simplexml_load_file("xml/coments.xml");
