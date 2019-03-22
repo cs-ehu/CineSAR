@@ -1,0 +1,126 @@
+\begin{theindex}
+
+  \item {\$database}
+    \subitem {config.php}, \hyperpage{6}
+  \item {\$passsql}
+    \subitem {config.php}, \hyperpage{6}
+  \item {\$serversql}
+    \subitem {config.php}, \hyperpage{6}
+  \item {\$usersql}
+    \subitem {config.php}, \hyperpage{6}
+
+  \indexspace
+
+  \item {C:/Users/Michel/Desktop/CineSAR/cinemas.php}, \hyperpage{5}
+  \item {C:/Users/Michel/Desktop/CineSAR/config.php}, \hyperpage{6}
+  \item {C:/Users/Michel/Desktop/CineSAR/index.php}, \hyperpage{6}
+  \item {C:/Users/Michel/Desktop/CineSAR/insertarPelicula.php}, 
+		\hyperpage{7}
+  \item {C:/Users/Michel/Desktop/CineSAR/login.php}, \hyperpage{7}
+  \item {C:/Users/Michel/Desktop/CineSAR/logout.php}, \hyperpage{8}
+  \item {C:/Users/Michel/Desktop/CineSAR/movie.php}, \hyperpage{8}
+  \item {C:/Users/Michel/Desktop/CineSAR/movies.php}, \hyperpage{8}
+  \item {C:/Users/Michel/Desktop/CineSAR/readme.md}, \hyperpage{9}
+  \item {C:/Users/Michel/Desktop/CineSAR/register.php}, \hyperpage{9}
+  \item {C:/Users/Michel/Desktop/CineSAR/serverManager.php}, 
+		\hyperpage{10}
+  \item {cinemas.php}
+    \subitem {else}, \hyperpage{5}
+    \subitem {if}, \hyperpage{5}
+  \item {comentarPeli}
+    \subitem {serverManager.php}, \hyperpage{10}
+  \item {config.php}
+    \subitem {\$database}, \hyperpage{6}
+    \subitem {\$passsql}, \hyperpage{6}
+    \subitem {\$serversql}, \hyperpage{6}
+    \subitem {\$usersql}, \hyperpage{6}
+
+  \indexspace
+
+  \item {else}
+    \subitem {cinemas.php}, \hyperpage{5}
+    \subitem {index.php}, \hyperpage{7}
+    \subitem {movie.php}, \hyperpage{8}
+    \subitem {movies.php}, \hyperpage{9}
+  \item {existsEmail}
+    \subitem {serverManager.php}, \hyperpage{10}
+  \item {existsUser}
+    \subitem {serverManager.php}, \hyperpage{11}
+
+  \indexspace
+
+  \item {formatoXML}
+    \subitem {serverManager.php}, \hyperpage{11}
+
+  \indexspace
+
+  \item {getCines}
+    \subitem {serverManager.php}, \hyperpage{12}
+  \item {getComents}
+    \subitem {serverManager.php}, \hyperpage{12}
+  \item {getMovie}
+    \subitem {serverManager.php}, \hyperpage{12}
+  \item {getMovies}
+    \subitem {serverManager.php}, \hyperpage{13}
+
+  \indexspace
+
+  \item {if}
+    \subitem {cinemas.php}, \hyperpage{5}
+    \subitem {insertarPelicula.php}, \hyperpage{7}
+    \subitem {login.php}, \hyperpage{7}
+    \subitem {movie.php}, \hyperpage{8}
+    \subitem {movies.php}, \hyperpage{9}
+    \subitem {register.php}, \hyperpage{9}
+  \item {index.php}
+    \subitem {else}, \hyperpage{7}
+  \item {insertarPeli}
+    \subitem {serverManager.php}, \hyperpage{13}
+  \item {insertarPelicula.php}
+    \subitem {if}, \hyperpage{7}
+
+  \indexspace
+
+  \item {logearUsuario}
+    \subitem {serverManager.php}, \hyperpage{14}
+  \item {login.php}
+    \subitem {if}, \hyperpage{7}
+
+  \indexspace
+
+  \item {movie.php}
+    \subitem {else}, \hyperpage{8}
+    \subitem {if}, \hyperpage{8}
+  \item {movies.php}
+    \subitem {else}, \hyperpage{9}
+    \subitem {if}, \hyperpage{9}
+
+  \indexspace
+
+  \item {register.php}
+    \subitem {if}, \hyperpage{9}
+  \item {registrarUsuario}
+    \subitem {serverManager.php}, \hyperpage{14}
+
+  \indexspace
+
+  \item {serverManager.php}
+    \subitem {comentarPeli}, \hyperpage{10}
+    \subitem {existsEmail}, \hyperpage{10}
+    \subitem {existsUser}, \hyperpage{11}
+    \subitem {formatoXML}, \hyperpage{11}
+    \subitem {getCines}, \hyperpage{12}
+    \subitem {getComents}, \hyperpage{12}
+    \subitem {getMovie}, \hyperpage{12}
+    \subitem {getMovies}, \hyperpage{13}
+    \subitem {insertarPeli}, \hyperpage{13}
+    \subitem {logearUsuario}, \hyperpage{14}
+    \subitem {registrarUsuario}, \hyperpage{14}
+    \subitem {validEmail}, \hyperpage{15}
+
+  \indexspace
+
+  \item {validEmail}
+    \subitem {serverManager.php}, \hyperpage{15}
+
+\end{theindex}
